@@ -10,9 +10,10 @@
     <Button
         android:id="@+id/button"
         android:layout_width="141dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
+        android:onClick="onclick"
         android:layout_weight="0.06"
         android:background="@drawable/button"
         android:text="@string/main" />
